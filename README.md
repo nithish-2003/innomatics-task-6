@@ -54,12 +54,7 @@ This will launch the **AI-Powered Travel Planner** in your browser at `http://lo
 
 ---
 
-## 📸 Screenshot
 
-### 🔹 Sample Output:
-![Travel AI Output](travel_ai_output.png)
-
----
 
 ## 🛠️ Troubleshooting
 ### ❌ Error: `Field required [type=missing]`
