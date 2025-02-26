@@ -1,98 +1,90 @@
-🌍 AI-Powered Travel Planner
+# 🌍 AI-Powered Travel Planner
 
-🚀 Overview
+![Travel AI Output](travel_ai_output.png)
 
-The AI-Powered Travel Planner is a cutting-edge web application that helps users find the best travel options between locations. It leverages Google Generative AI and LangChain to generate detailed travel suggestions, including flights, trains, buses, and other modes of transportation.
+## 🚀 Plan Your Trip with AI-Powered Suggestions!
 
-✨ Features
+This AI-driven travel assistant helps you find the best routes, estimated costs, and travel times for your journey. Powered by **Google Gemini AI** and **LangChain**, it provides **personalized** travel recommendations at your fingertips!
 
-🔍 AI-powered travel recommendations
+---
 
-🌐 Uses Google Generative AI (Gemini 1.5 Flash) for travel planning
+## 🛠️ Setup & Installation
 
-📊 Estimates costs and travel times for multiple transport modes
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/yourusername/ai-travel-planner.git
+cd ai-travel-planner
+```
 
-🎛️ Interactive and user-friendly interface built with Streamlit
-
-🔐 Secure API key management using dotenv
-
-🛠️ Installation & Setup
-
-1️⃣ Clone the Repository
-
-git clone https://github.com/your-username/AI-Travel-Planner.git
-cd AI-Travel-Planner
-
-2️⃣ Create a Virtual Environment
-
+### 2️⃣ Create a Virtual Environment
+```bash
 python -m venv venv
-source venv/bin/activate   # On macOS/Linux
-venv\Scripts\activate     # On Windows
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate    # On Windows
+```
 
-3️⃣ Install Dependencies
-
+### 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-4️⃣ Set Up Environment Variables
+### 4️⃣ Set Up Your API Key
+Create a **.env** file in the project directory and add your Google API Key:
+```plaintext
+GOOGLE_API_KEY=your_google_generative_ai_api_key
+```
 
-Create a .env file in the root directory and add your Google API Key:
+---
 
-GOOGLE_API_KEY=your_google_api_key_here
-
-5️⃣ Run the Application
-
+## 🏃‍♂️ Running the App
+```bash
 streamlit run travel.py
+```
 
-🏗️ Project Structure
+This will launch the **AI-Powered Travel Planner** in your browser at `http://localhost:8501`.
 
-AI-Travel-Planner/
-│-- travel.py                # Main application logic
-│-- requirements.txt         # Python dependencies
-│-- .env                     # API keys (not shared in GitHub)
-│-- README.md                # Documentation
-│-- assets/                  # Images & resources
+---
 
-⚡ How It Works
+## 🎯 Features
+✅ AI-generated travel suggestions (cab, train, bus, flights)  
+✅ Estimated travel cost & time  
+✅ Real-time, dynamic responses  
+✅ Easy-to-use Streamlit UI  
+✅ Supports multiple locations worldwide  
 
-1️⃣ User Input: The app asks for starting location and destination.
-2️⃣ AI Processing: The system uses LangChain + Google AI to generate travel options.
-3️⃣ Results Displayed: The user sees the best travel routes, estimated costs, and travel time.
+---
 
-🔧 Tech Stack
+## 📸 Screenshot
 
-Python 🐍
+### 🔹 Sample Output:
+![Travel AI Output](travel_ai_output.png)
 
-Streamlit 🎨 (Frontend)
+---
 
-Google Generative AI 🤖
+## 🛠️ Troubleshooting
+### ❌ Error: `Field required [type=missing]`
+✅ Ensure your **.env** file is properly configured and the API key is valid.
 
-LangChain 🔗 (AI Model Integration)
+### ❌ Error: `Unknown field for Candidate: text`
+✅ Update the **Google Generative AI SDK**:
+```bash
+pip install --upgrade google-generativeai
+```
 
-dotenv 🔐 (Secure API Management)
+---
 
-🎯 Future Enhancements
+## 🔮 Future Enhancements
+- ✈️ **Real-time flight & train booking integration**
+- 🌎 **Multi-destination trip planning**
+- 🔥 **Voice-based assistant for travel recommendations**
+- 📍 **Interactive maps & route visualization**
 
-🛫 Real-time flight price tracking
+---
 
-🏨 Hotel & accommodation recommendations
+## 🤝 Contributing
+We welcome contributions! Feel free to **fork** the repo and submit a **pull request**. Let's build a smarter travel assistant together! ✨
 
-🗺️ Route visualization with maps
+---
 
-🤖 Voice & Chatbot integration
-
-🤝 Contributing
-
-We welcome contributions! 🚀 Feel free to submit pull requests or open issues.
-
-📜 License
-
-MIT License. Free to use and modify! ✨
-
-🌟 Show Your Support!
-
-Give this project a ⭐ on GitHub if you found it helpful!
-
-📬 Need Help?
-
-Feel free to reach out via GitHub Issues!
-
+## 📜 License
+This project is licensed under the **MIT License**.
