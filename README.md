@@ -1,6 +1,6 @@
 # 🌍 AI-Powered Travel Planner
 
-![Travel AI Output](travel ai output.png)
+![Example Output](Output.png)
 
 ## 🚀 Plan Your Trip with AI-Powered Suggestions!
 
